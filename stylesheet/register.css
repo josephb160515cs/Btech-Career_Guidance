@@ -1,0 +1,57 @@
+body
+{
+	background-image:url("index_background.jpg");
+	background-position:center;
+	background-size:cover;
+}#div1
+{
+	border:1px solid blue;
+	border-radius:12px;
+	width:300px;
+	margin:150px auto;
+	padding:40px;
+	background-color:skyblue;
+}
+form
+{
+	color:white;
+}
+input
+{
+	border-radius:12px;
+	background-color:#E5E7E9;
+}
+input:valid 
+{
+  background-color: yellow;
+}
+input:invalid { 
+  border: 1px solid red;
+}
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus
+{
+	background-color:white;
+}
+input[type=submit]
+{
+	background-color:green;
+	border-color:lightgreen;
+	border-radius:10px;
+	border-style:inset;
+	color:white;
+	cursor:pointer;
+}
+input[type=submit]:hover
+{
+	color:lightgreen;
+}
+input[type=password]
+{
+	user-select: none;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input {
+text-align: center;
+}

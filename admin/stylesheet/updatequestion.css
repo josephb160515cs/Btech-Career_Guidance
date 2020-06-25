@@ -1,0 +1,22 @@
+#menubar
+{
+	height:610px;
+	float:left;
+	width:100%;
+}
+#page
+{
+	margin-top:-610px;
+	float:right;
+	height:610px;
+	width:75%;
+}
+#page form
+{
+	text-align:center;
+	margin-left:290px;
+}
+#page form input
+{
+	text-align:center;
+}

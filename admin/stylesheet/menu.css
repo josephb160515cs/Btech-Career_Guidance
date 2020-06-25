@@ -1,0 +1,49 @@
+body
+{
+	margin:0px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width:25%;
+  height:100%;
+}
+#logouta
+{
+	background-color:green;
+	height:40px;
+}
+#logouta:hover
+{
+	background-color:red;
+}
+.menu li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  height:40px;
+}
+
+.menu li:hover:not(.active) 
+{
+  background-color: #111;
+}
+
+.active {
+  background-color: #3498DB;
+}
+.menu h1,h2
+{
+	color:white;
+	text-align:center;
+}
+.menu h2
+{
+	margin-bottom:50px;
+}

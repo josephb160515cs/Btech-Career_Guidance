@@ -1,0 +1,36 @@
+#guidelines
+{
+	text-align:left;
+	width:600px;
+	margin-top:auto;
+	margin-left:300px;
+	border:1px solid black;
+	border-style:inset;
+	border-radius:12px;
+}
+#guidelines h1
+{
+	color:blue;
+	text-align:center;
+}
+#guidelines ul li
+{
+	list-style-type: none;
+	margin-left:60px;
+}
+#page form
+{
+	margin:20px 550px;
+}
+#page input[type=submit]
+{
+	background-color:#2ECC71;
+	border:1px solid blue;
+	border-radius:12px;
+	border-style:inset;
+	color:white;
+}
+#page input[type=submit]:focus,#page input[type=submit]:hover
+{
+	border-color:red;
+}

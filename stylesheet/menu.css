@@ -1,0 +1,46 @@
+body
+{
+	margin:0px;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li:not(#logout) 
+{
+  float: left;
+}
+#logout
+{
+	float:right;
+	background-color:green;
+	height:50.78px;
+}
+#logout:hover
+{
+	background-color:red;
+}
+.menu li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+.menu li:hover:not(.active) 
+{
+  background-color: #111;
+}
+
+.active {
+  background-color: #3498DB;
+}
+input:focus, textarea:focus {
+    outline: none;
+}

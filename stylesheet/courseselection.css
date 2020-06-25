@@ -1,0 +1,81 @@
+button
+{
+	padding:50px;
+	width:250px;
+	height:125px;
+	margin-top:150px;
+	margin-left:90px;
+	border:1px solid blue;
+	border-style:outset;
+	border-radius:12px;
+	font-size:20px;
+	cursor:pointer;
+	
+}
+button:hover
+{
+	border-color:red;
+}
+#medicine
+{
+	background-image:url("medicine.jpg");
+	color:#196F3D;
+}
+#engineering
+{
+	background-image:url("engineering.jpg");
+	color:#CA6F1E;
+}
+#commerce
+{
+	background-image:url("commerce.jpg");
+	color:#F4D03F;
+}
+select
+{
+	width:50px;
+}
+#divmed,#divcom,#diveng
+{
+	text-align:center;
+	padding:25px;
+	border:1px solid blue;
+	width:200px;
+	float:left;
+	margin-left:90px;
+	border-style:inset;
+	border-radius:12px;
+	display:none;
+}
+#divmed
+{
+	background-image:url("medicine_form.jpg");
+}
+#diveng
+{
+	position:absolute;
+	left:345px;
+	background-image:url("engineering_form.jpg");
+}
+#divcom
+{
+	position:absolute;
+	left:688px;
+	background-image:url("commerce_form.jpg");
+	background-position:center;
+	background-size:250px;
+}
+input[type=submit]
+{
+	background-color:green;
+	border-color:lightgreen;
+	border-radius:10px;
+	border-style:inset;
+	color:white;
+	cursor:pointer;
+	float:right;
+}
+input[type=submit]:hover
+{
+	color:lightgreen;
+}

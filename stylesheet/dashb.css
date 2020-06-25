@@ -1,0 +1,44 @@
+body
+{
+margin:0px;
+}
+#page
+{
+	width:350px;
+	border-radius:12px;
+	border:1px solid black;
+	margin: 150px auto;
+	text-align:center;
+	padding:20px;
+	background-image: linear-gradient(to bottom right, #333, #1A5276);
+}
+form
+{
+	color:#2ECC71;
+}
+input
+{
+	border-radius:12px;
+	background-color:#E5E7E9;
+}
+input[type=text]:focus
+{
+	background-color:white;
+}
+input[type=submit]
+{
+	background-color:green;
+	border-color:lightgreen;
+	border-radius:10px;
+	border-style:inset;
+	color:white;
+	cursor:pointer;
+}
+input[type=submit]:hover
+{
+	color:lightgreen;
+}
+input
+{
+	text-align:center;
+}

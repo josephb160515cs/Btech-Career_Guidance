@@ -1,0 +1,25 @@
+#search
+{
+	float:right;
+}
+table
+{
+	margin-top:20px;
+	width:100%;
+}
+tr:first-child
+{
+	height:30px;
+	background-color:darkblue;
+	color:white;
+}
+th,td
+{
+	border-right:1px solid black;
+	margin:0;
+	padding:5px;
+}
+tr:nth-child(even)
+{
+	background-color:lightblue;
+}
